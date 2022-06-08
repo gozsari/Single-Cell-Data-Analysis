@@ -3,6 +3,10 @@ Notes and studies about sinle-cell analysis
 ## Vocabulary
 * **Central dogma of molecular biology**
 ![alt text](Central-Dogma-DNA-to-RNA-to-Protein.png?raw=true)
+<p align="center">
+  <img src="Central-Dogma-DNA-to-RNA-to-Protein.png" width="350" title="hover text">
+  
+</p>
 * A **tisuue** is a group of cells that have similar structure and function together as a unit. 
 * **Transcription profiling:** Also known as **expression profiling**. It involves the quantification of gene expression of many genes in cells or tissue samples at the transcription (RNA) level.
 * **Gene expression** is the process by which information from a gene is used in the synthesis of functional gene product that enables it to produce end products, protein or non-coding RNA, end ultimately phenotype, as final effect.
