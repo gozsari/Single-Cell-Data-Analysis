@@ -23,4 +23,4 @@ Notes and studies about single-cell analysis
 * **Goals of scRNA-seq**
    - Measure the distribution of expression levels for each gene across a population of cells.
    - Measure transcriptional differences across and within groups of cells.
-   - Resolve single-cell hetrogeneity.
+   - Resolve single-cell heterogeneity.
