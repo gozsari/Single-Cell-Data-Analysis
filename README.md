@@ -25,5 +25,5 @@ Notes and studies about single-cell analysis
    - Measure transcriptional differences across and within groups of cells.
    - Resolve single-cell heterogeneity.
 
-References:
+## References:
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/watch?v=jwSPTgF9ESQ&t=1177s)
