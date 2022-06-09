@@ -4,7 +4,7 @@ Notes and studies about sinle-cell analysis
 * **Central dogma of molecular biology**
 
 <p align="center">
-  <img src="Central-Dogma-DNA-to-RNA-to-Protein.png" width="350" title="hover text">
+  <img src="Central-Dogma-DNA-to-RNA-to-Protein.png" width="350" title="central dogma">
 </p>
 
 * A **tisuue** is a group of cells that have similar structure and function together as a unit. 
@@ -17,5 +17,5 @@ Notes and studies about sinle-cell analysis
 * Single-cell RNA-seq enables questions about tissue heterogeneity and how cells transition between different phsiological states.
 * Bulk vs Single-cell RNA sequencing
  <p align="center">
-  <img src="bulk_vs_SC.png" width="450" title="hover text">
+  <img src="bulk_vs_SC.png" width="450" title="Bulk vs Single-Cell RNA sequencing">
 </p>
