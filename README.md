@@ -1,5 +1,5 @@
 # Single-Cell
-Notes and studies about sinle-cell analysis
+Notes and studies about single-cell analysis
 ## Vocabulary
 * **Central dogma of molecular biology**
 
