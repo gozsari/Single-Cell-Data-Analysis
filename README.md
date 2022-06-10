@@ -11,8 +11,8 @@ Notes and studies about single-cell analysis
 * **Transcription profiling:** Also known as **expression profiling**. It involves the quantification of gene expression of many genes in cells or tissue samples at the transcription (RNA) level.
 * **Gene expression** is the process by which information from a gene is used in the synthesis of functional gene product that enables it to produce end products, protein or non-coding RNA, end ultimately phenotype, as final effect.
 * **Tissue heterogeneity** refers to the fact that data generated with biological samples can be compromised by cells originating from other tissues or organs than the target tissue or organ of profiling. It can be caused by biological processes (such as immune cell infiltration), sample contamination, or mistakes in sample labelling.
-*  **Read counts** is the total number of mRNAs from a gene that you sequenced.
-*  **UMI (Unique Molecular Identifier) counts** is the total number of unique mRNAs for a gene that you captured.
+*  **Read counts** are the total number of mRNAs from a gene that you sequenced.
+*  **UMI (Unique Molecular Identifier) counts** are the total number of unique mRNAs for a gene that you captured.
 
 ## Notes
 * Single-cell RNA-seq can asses the global state of all mRNA transcripts being expresses within a tissue with single-cell resolution, so with high content measures.
@@ -34,6 +34,13 @@ Notes and studies about single-cell analysis
  <p align="center">
   <img src="scrna-process.png" width="650" title="Overview of Single-cell RNA sequencing">
 </p>
+
+* Unique molecular identifiers (UMIs) reduce amplification error
+
+ <p align="center">
+  <img src="umi-cellbarcode.png" width="450" title="umi and cell barcode">
+</p>
+
 
 ## References
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/watch?v=jwSPTgF9ESQ&t=1177s)
