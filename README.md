@@ -30,7 +30,7 @@ Notes and studies about single-cell analysis
 * **Overview of Single-cell RNA sequencing**
 
  <p align="center">
-  <img src="scrna-process.png" width="450" title="Overview of Single-cell RNA sequencing">
+  <img src="scrna-process.png" width="650" title="Overview of Single-cell RNA sequencing">
 </p>
 
 ## References
