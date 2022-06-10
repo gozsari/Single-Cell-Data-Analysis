@@ -15,7 +15,9 @@ Notes and studies about single-cell analysis
 ## Notes
 * Single-cell RNA-seq can asses the global state of all mRNA transcripts being expresses within a tissue with single-cell resolution, so with high content measures.
 * Single-cell RNA-seq enables questions about tissue heterogeneity and how cells transition between different phsiological states.
+
 * **Bulk vs Single-cell RNA sequencing**
+
  <p align="center">
   <img src="bulk_vs_SC.png" width="450" title="Bulk vs Single-Cell RNA sequencing">
 </p>
@@ -24,6 +26,12 @@ Notes and studies about single-cell analysis
    - Measure the distribution of expression levels for each gene across a population of cells.
    - Measure transcriptional differences across and within groups of cells.
    - Resolve single-cell heterogeneity.
+   
+* **Overview of Single-cell RNA sequencing**
+
+ <p align="center">
+  <img src="scrna-process.png" width="450" title="Overview of Single-cell RNA sequencing">
+</p>
 
 ## References
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/watch?v=jwSPTgF9ESQ&t=1177s)
