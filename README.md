@@ -13,6 +13,8 @@ Notes and studies about single-cell analysis
 * **Tissue heterogeneity** refers to the fact that data generated with biological samples can be compromised by cells originating from other tissues or organs than the target tissue or organ of profiling. It can be caused by biological processes (such as immune cell infiltration), sample contamination, or mistakes in sample labelling.
 *  **Read counts** are the total number of mRNAs from a gene that you sequenced.
 *  **UMI (Unique Molecular Identifier) counts** are the total number of unique mRNAs for a gene that you captured.
+*  **Demultiplexing** refers to the step in processing where you'd use the barcode information in order to know which sequences came from which samples after they had all be sequenced together.
+
 
 ## Notes
 * Single-cell RNA-seq can asses the global state of all mRNA transcripts being expresses within a tissue with single-cell resolution, so with high content measures.
@@ -41,6 +43,7 @@ Notes and studies about single-cell analysis
   <img src="umi-cellbarcode.png" width="450" title="umi and cell barcode">
 </p>
 
+* UMI counts compromise the gene by cell matrices for the analysis.
 
 ## References
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/watch?v=jwSPTgF9ESQ&t=1177s)
