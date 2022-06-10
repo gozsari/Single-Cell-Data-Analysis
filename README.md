@@ -45,5 +45,12 @@ Notes and studies about single-cell analysis
 
 * UMI counts compromise the gene by cell matrices for the analysis.
 
+* Consideration for choosing scRNA-seq technology
+
+ <p align="center">
+  <img src="scRNA-seq-techs.png" width="450" title="comparison of scRNA-seq technologies">
+</p>
+
+
 ## References
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/watch?v=jwSPTgF9ESQ&t=1177s)
