@@ -15,6 +15,7 @@ Notes and studies about single-cell analysis
 *  **UMI (Unique Molecular Identifier) counts** are the total number of unique mRNAs for a gene that you captured.
 *  **Demultiplexing** refers to the step in processing where you'd use the barcode information in order to know which sequences came from which samples after they had all be sequenced together.
 *  In molecular biology, a **transcription factor (TF)** (or sequence-specific DNA-binding factor) is a protein that controls the rate of transcription of genetic information from DNA to messenger RNA, by binding to a specific DNA sequence.
+*  A **doublet** is the case of two cells being lysed and sequenced within the same droplet.
 
 
 ## Notes
