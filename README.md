@@ -14,6 +14,7 @@ Notes and studies about single-cell analysis
 *  **Read counts** are the total number of mRNAs from a gene that you sequenced.
 *  **UMI (Unique Molecular Identifier) counts** are the total number of unique mRNAs for a gene that you captured.
 *  **Demultiplexing** refers to the step in processing where you'd use the barcode information in order to know which sequences came from which samples after they had all be sequenced together.
+*  In molecular biology, a **transcription factor (TF)** (or sequence-specific DNA-binding factor) is a protein that controls the rate of transcription of genetic information from DNA to messenger RNA, by binding to a specific DNA sequence.
 
 
 ## Notes
@@ -54,3 +55,4 @@ Notes and studies about single-cell analysis
 
 ## References
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/watch?v=jwSPTgF9ESQ&t=1177s)
+  2. https://en.wikipedia.org/wiki/Transcription_factor
