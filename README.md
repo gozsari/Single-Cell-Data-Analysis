@@ -62,3 +62,4 @@ Notes and studies about single-cell analysis
 ## References
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/watch?v=jwSPTgF9ESQ&t=1177s)
   2. https://en.wikipedia.org/wiki/Transcription_factor
+  3. Luecken, M. D., & Theis, F. J. (2019). Current best practices in single‐cell RNA‐seq analysis: a tutorial. Molecular systems biology, 15(6), e8746.
