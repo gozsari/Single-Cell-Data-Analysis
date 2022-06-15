@@ -53,6 +53,11 @@ Notes and studies about single-cell analysis
   <img src="scRNA-seq-techs.png" width="450" title="comparison of scRNA-seq technologies">
 </p>
 
+* **Single cell RNA-seq analysis workflow**
+
+ <p align="center">
+  <img src="schematic-view-scRNA-seq-analysis.png" title="schematic-view-scRNA-seq-analysis">
+</p>
 
 ## References
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/watch?v=jwSPTgF9ESQ&t=1177s)
