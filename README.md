@@ -61,7 +61,7 @@ Notes and studies about single-cell analysis
 
 After demultiplexing the data, we end up with a gene count by cell matrix where each column represents a single cell, and the rows of that column are the sum of UMIs detected for each gene species.
 
-### Pre-Processing single-cell data
+#### Data Analysis Pipeline
 **1.Quality control:** The first step in the data analysis pipeline is to filter the data using quality control metrics such as count depth, with the idea being to remove low-quality or dead cells from the gene by cell matrix.
 
 ## References
