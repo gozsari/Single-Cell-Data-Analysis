@@ -66,7 +66,7 @@ After demultiplexing the data, we end up with a gene count by cell matrix where 
 * Each cell's transcriptional profile is intrinsically variable from one cell to the next because of biology. So, how can we distinguish "what is technical variation?" and "what is biological variation?".
 * Attempts to minimize the impact of technical variation occur at the data analysis steps.
 
-**Standard pipeline for minimizing the impact of technical variation:**
+#### Standard pipeline for minimizing the impact of technical variation:
 
 **Step-1:** Use UMI counts, not reads. This avoids variation introduced by amplification and reverse transcription.
 
@@ -78,10 +78,17 @@ After demultiplexing the data, we end up with a gene count by cell matrix where 
 
 **Step-5:** Feature selection, which usually involves identifying a set of "Highly Variable Genes-HGVs".
 
-**Step-6:** PCA, which capture only some of the variation in the data. Once we identify biologically infrmative genes which we assume are the HVGs, researchers typically apply principal component analysis to further reduce the dimensionality of the data and only capture major axes variation.
+**Step-6:** PCA, which capture only some of the variation in the data. Once we identify biologically informative genes which we assume are the HVGs, researchers typically apply principal component analysis to further reduce the dimensionality of the data and only capture major axes variation.
+
 #### Data Analysis Pipeline
-**1.Quality control:** The first step in the data analysis pipeline is to filter the data using quality control metrics such as count depth, with the idea being to remove low-quality or dead cells from the gene by cell matrix.
-GOAL: Identify and minimize technical variatio
+**Quality control:** The first step in the data analysis pipeline is to filter the data using quality control metrics such as count depth, with the idea being to remove low-quality or dead cells from the gene by cell matrix.
+<p align="center"> GOAL: Identify and minimize technical variation that arises from low quality cells. </p>
+
+There are three main parameters that inform us about the quality of the cell:
+1. **Count depth** is the number of total UMIs that were detected in the cell.
+2. **Number of genes** is the number of different genes identified per cell.
+3. **Fraction of mitochondrial counts** is the fract
+
 ## References
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/watch?v=jwSPTgF9ESQ&t=1177s)
   2. https://en.wikipedia.org/wiki/Transcription_factor
