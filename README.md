@@ -1,4 +1,4 @@
-# Single-Cell
+# Single-Cell Data Analysis
 Notes and studies about single-cell analysis
 ## Vocabulary
 * **Central dogma of molecular biology**
