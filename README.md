@@ -61,9 +61,27 @@ Notes and studies about single-cell analysis
 
 After demultiplexing the data, we end up with a gene count by cell matrix where each column represents a single cell, and the rows of that column are the sum of UMIs detected for each gene species.
 
+### Technical Variation
+* Single-cell RNA-sequencing is a noisy technique that only captures about 5% of mRNA from each cell.
+* Each cell's transcriptional profile is intrinsically variable from one cell to the next because of biology. So, how can we distinguish "what is technical variation?" and "what is biological variation?".
+* Attempts to minimize the impact of technical variation occur at the data analysis steps.
+
+**Standard pipeline for minimizing the impact of technical variation:**
+
+**Step-1:** Use UMI counts, not reads. This avoids variation introduced by amplification and reverse transcription.
+
+**Step-2:** Use quality control metrics to remove low quality cells.
+
+**Step-3:** Normalize the data, which generally assumes the same number of total mRNAs per cell. (ie. Counts per million or CPM).
+
+**Step-4:** Log Transform is applied in attempt to stabilize the variance that arises from the differences in the mean expression of each gene.
+
+**Step-5:** Feature selection, which usually involves identifying a set of "Highly Variable Genes-HGVs".
+
+**Step-6:** PCA, which capture only some of the variation in the data. Once we identify biologically infrmative genes which we assume are the HVGs, researchers typically apply principal component analysis to further reduce the dimensionality of the data and only capture major axes variation.
 #### Data Analysis Pipeline
 **1.Quality control:** The first step in the data analysis pipeline is to filter the data using quality control metrics such as count depth, with the idea being to remove low-quality or dead cells from the gene by cell matrix.
-
+GOAL: Identify and minimize technical variatio
 ## References
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/watch?v=jwSPTgF9ESQ&t=1177s)
   2. https://en.wikipedia.org/wiki/Transcription_factor
