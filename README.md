@@ -92,6 +92,17 @@ There are three main parameters that inform us about the quality of the cell:
 
 It is the best practice to consider multiple parameters jointly in order to remove poorly amplified or damaged/dead cells and doublets.
 
+**Quality control pitfalls and recommendations**
+
+1. Consider filtering outliers identified by:
+   * number of genes
+   * count depth
+   * fraction of mitochondrial reads
+   * fraction of bio to spike in reads 
+2. Be permisssive:
+   * You risk losing real data and entire population of varying cell types.
+3. Consider each sample independently:
+   * If QC covariate distributions vary between samples, determine QC parameters seperately for each sample.
 ## References
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/watch?v=jwSPTgF9ESQ&t=1177s)
   2. https://en.wikipedia.org/wiki/Transcription_factor
