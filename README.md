@@ -83,6 +83,7 @@ After demultiplexing the data, we end up with a gene count by cell matrix where 
 #### Data Analysis Pipeline
 **Quality control:** The first step in the data analysis pipeline is to filter the data using quality control metrics such as count depth, with the idea being to remove low-quality or dead cells from the gene by cell matrix.
 <p align="center"> GOAL: Identify and minimize technical variation that arises from low quality cells. </p>
+:heavy_exclamation_mark: 
 
 There are three main parameters that inform us about the quality of the cell:
 1. **Count depth** is the number of total UMIs that were detected in the cell.
