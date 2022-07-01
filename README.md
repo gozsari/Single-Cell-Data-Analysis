@@ -87,7 +87,9 @@ After demultiplexing the data, we end up with a gene count by cell matrix where 
 There are three main parameters that inform us about the quality of the cell:
 1. **Count depth** is the number of total UMIs that were detected in the cell.
 2. **Number of genes** is the number of different genes identified per cell.
-3. **Fraction of mitochondrial counts** is the fract
+3. **Fraction of mitochondrial counts** is the fraction of mitochondrial genes relative to all genes within the cell.
+
+It is the best practice to consider multiple parameters jointly in order to remove poorly amplified or damaged/dead cells and doublets.
 
 ## References
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/watch?v=jwSPTgF9ESQ&t=1177s)
