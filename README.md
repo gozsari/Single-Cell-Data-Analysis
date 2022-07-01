@@ -59,6 +59,11 @@ Notes and studies about single-cell analysis
   <img src="schematic-view-scRNA-seq-analysis.png" title="schematic-view-scRNA-seq-analysis">
 </p>
 
+After demultiplexing the data, we end up with a gene count by cell matrix where each column represents a single cell, and the rows of that column are the sum of UMIs detected for each gene species.
+
+### Pre-Processing single-cell data
+**1.Quality control:** The first step in the data analysis pipeline is to filter the data using quality control metrics such as count depth, with the idea being to remove low-quality or dead cells from the gene by cell matrix.
+
 ## References
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/watch?v=jwSPTgF9ESQ&t=1177s)
   2. https://en.wikipedia.org/wiki/Transcription_factor
