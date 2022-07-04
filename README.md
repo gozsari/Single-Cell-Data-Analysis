@@ -11,11 +11,13 @@ Notes and studies about single-cell analysis
 * **Transcription profiling:** Also known as **expression profiling**. It involves the quantification of gene expression of many genes in cells or tissue samples at the transcription (RNA) level.
 * **Gene expression** is the process by which information from a gene is used in the synthesis of functional gene product that enables it to produce end products, protein or non-coding RNA, end ultimately phenotype, as final effect.
 * **Tissue heterogeneity** refers to the fact that data generated with biological samples can be compromised by cells originating from other tissues or organs than the target tissue or organ of profiling. It can be caused by biological processes (such as immune cell infiltration), sample contamination, or mistakes in sample labelling.
-*  **Read counts** are the total number of mRNAs from a gene that you sequenced.
-*  **UMI (Unique Molecular Identifier) counts** are the total number of unique mRNAs for a gene that you captured.
-*  **Demultiplexing** refers to the step in processing where you'd use the barcode information in order to know which sequences came from which samples after they had all be sequenced together.
-*  In molecular biology, a **transcription factor (TF)** (or sequence-specific DNA-binding factor) is a protein that controls the rate of transcription of genetic information from DNA to messenger RNA, by binding to a specific DNA sequence.
-*  A **doublet** is the case of two cells being lysed and sequenced within the same droplet.
+* **Read counts** are the total number of mRNAs from a gene that you sequenced.
+* **UMI (Unique Molecular Identifier) counts** are the total number of unique mRNAs for a gene that you captured.
+* **Demultiplexing** refers to the step in processing where you'd use the barcode information in order to know which sequences came from which samples after they had all be sequenced together.
+* In molecular biology, a **transcription factor (TF)** (or sequence-specific DNA-binding factor) is a protein that controls the rate of transcription of genetic information from DNA to messenger RNA, by binding to a specific DNA sequence.
+* A **doublet** is the case of two cells being lysed and sequenced within the same droplet.
+* **Cell cycle effect:** During the cell cycle a cell increases in size, replicates its DNA and splits into daughter cells. Different cells are at different time points of this cycle and thus they may have quite different expression profiles, even if they are cells of the same type.
+* **ERCC RNA Spike-In Control Mixes** provide a set of external RNA controls that enable performance assessment of a variety of technology platforms used for gene expression experiments. 
 
 
 ## Notes
