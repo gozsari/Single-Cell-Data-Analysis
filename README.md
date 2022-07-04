@@ -131,7 +131,7 @@ The idea is to stabilize the variance for genes whose averages are order of magn
 * Batch effects
 * Expression recovery-imputation
 
-
+**IMPORTANT: Try to avoid introducing bias, when you do preprocessing data analysis.**
 ## Useful Github Repos:
  1. https://github.com/czheluo/scRNAseq-workshop
 
