@@ -132,10 +132,14 @@ The idea is to stabilize the variance for genes whose averages are order of magn
 * Expression recovery-imputation
 
 **IMPORTANT: Try to avoid introducing bias, when you do preprocessing data analysis.**
-## Useful Github Repos:
- 1. https://github.com/czheluo/scRNAseq-workshop
+
+## Useful Links:
+ 1. [scRNA-workshop](https://github.com/czheluo/scRNAseq-workshop): Single cell RNA-seq data analysis with R AND Python workshop 2020 in MAJORBIO
+ 2. [UCLA QCBio Collaboratory Single-Cell RNA-Seq Analysis with Python - Day 1](https://www.youtube.com/watch?v=jwSPTgF9ESQ&list=PLOXLw2he7kYpqAL0Gzco5NkA2DpewtluK&index=2)
+ 3. [UCLA QCBio Collaboratory Single-Cell RNA-Seq Analysis with Python - Day 2](https://www.youtube.com/watch?v=HTOoMH7UMYw&list=PLOXLw2he7kYpqAL0Gzco5NkA2DpewtluK&index=3)
+ 4. [UCLA QCBio Collaboratory Single-Cell RNA-Seq Analysis with Python - Day 3](https://www.youtube.com/watch?v=9vszIR8pZHc&list=PLOXLw2he7kYpqAL0Gzco5NkA2DpewtluK&index=4)
 
 ## References
-  1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/watch?v=jwSPTgF9ESQ&t=1177s)
+  1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/channel/UC_Nsj_F_u7X7Il9x9V-g-sQ)
   2. https://en.wikipedia.org/wiki/Transcription_factor
   3. Luecken, M. D., & Theis, F. J. (2019). Current best practices in single‐cell RNA‐seq analysis: a tutorial. Molecular systems biology, 15(6), e8746.
