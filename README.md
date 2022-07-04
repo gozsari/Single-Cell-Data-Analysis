@@ -61,7 +61,7 @@ Notes and studies about single-cell analysis
 
 After demultiplexing the data, we end up with a gene count by cell matrix where each column represents a single cell, and the rows of that column are the sum of UMIs detected for each gene species.
 
-### Technical Variation
+## Technical Variation
 * Single-cell RNA-sequencing is a noisy technique that only captures about 5% of mRNA from each cell.
 * Each cell's transcriptional profile is intrinsically variable from one cell to the next because of biology. So, how can we distinguish "what is technical variation?" and "what is biological variation?".
 * Attempts to minimize the impact of technical variation occur at the data analysis steps.
@@ -80,8 +80,8 @@ After demultiplexing the data, we end up with a gene count by cell matrix where 
 
 **Step-6:** PCA, which capture only some of the variation in the data. Once we identify biologically informative genes which we assume are the HVGs, researchers typically apply principal component analysis to further reduce the dimensionality of the data and only capture major axes variation.
 
-#### Data Analysis Pipeline
-**Quality control:** The first step in the data analysis pipeline is to filter the data using quality control metrics such as count depth, with the idea being to remove low-quality or dead cells from the gene by cell matrix.
+### Data Analysis Pipeline
+A. **Quality control:** The first step in the data analysis pipeline is to filter the data using quality control metrics such as count depth, with the idea being to remove low-quality or dead cells from the gene by cell matrix.
 <p align="center"> :heavy_exclamation_mark: GOAL: Identify and minimize technical variation that arises from low quality cells. </p>
 
 
@@ -103,6 +103,19 @@ It is the best practice to consider multiple parameters jointly in order to remo
    * You risk losing real data and entire population of varying cell types.
 3. Consider each sample independently:
    * If QC covariate distributions vary between samples, determine QC parameters seperately for each sample.
+
+B. **Normalization and Batch Correction:**
+<p align="center"> :heavy_exclamation_mark: GOAL: Nor malize the variation due to differences in count depth in order to prepare for the model of highly variable gene  (HGV) selection </p>
+
+The idea of the preprocessing pipeline is to remove variation that arises due to the measurement error alone.
+
+**CPM normalization technique:** Main assumption is that all cells have equal mRNA molecules, thus, count depth due to the differences in sampling.
+* However, in droplet-based approaches the assumption that cell size can effect the read depth such that if you have a bigger cell, the capture process might become saturated.
+
+* $$ CPM_i = {{r_i \over R}* 10^6 $$
+ 
+C. **Log Transformation:**
+The idea is to stabilize the variance for genes whose averages are order of magnitudes different.
 ## References
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/watch?v=jwSPTgF9ESQ&t=1177s)
   2. https://en.wikipedia.org/wiki/Transcription_factor
