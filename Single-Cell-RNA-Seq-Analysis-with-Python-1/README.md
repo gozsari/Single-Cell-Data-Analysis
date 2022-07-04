@@ -133,15 +133,6 @@ The idea is to stabilize the variance for genes whose averages are order of magn
 
 **IMPORTANT: Try to avoid introducing bias, when you do preprocessing data analysis.**
 
-## Useful Links:
- 1. [scRNA-workshop](https://github.com/czheluo/scRNAseq-workshop): Single cell RNA-seq data analysis with R AND Python workshop 2020 in MAJORBIO
- 2. [Avesome Single cell](https://github.com/seandavi/awesome-single-cell): About Community-curated list of software packages and data resources for single-cell, including RNA-seq, ATAC-seq, etc.
- 3. [scRNAseq-analysis-notes](https://github.com/crazyhottommy/scRNAseq-analysis-notes): scRNAseq analysis notes
- 4. [scRNA-seq data analysis tools and papers](https://github.com/mdozmorov/scRNA-seq_notes): A list of scRNA-seq analysis tools
- 5. [UCLA QCBio Collaboratory Single-Cell RNA-Seq Analysis with Python - Day 1](https://www.youtube.com/watch?v=jwSPTgF9ESQ&list=PLOXLw2he7kYpqAL0Gzco5NkA2DpewtluK&index=2)
- 6. [UCLA QCBio Collaboratory Single-Cell RNA-Seq Analysis with Python - Day 2](https://www.youtube.com/watch?v=HTOoMH7UMYw&list=PLOXLw2he7kYpqAL0Gzco5NkA2DpewtluK&index=3)
- 7. [UCLA QCBio Collaboratory Single-Cell RNA-Seq Analysis with Python - Day 3](https://www.youtube.com/watch?v=9vszIR8pZHc&list=PLOXLw2he7kYpqAL0Gzco5NkA2DpewtluK&index=4)
-
 ## References
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/channel/UC_Nsj_F_u7X7Il9x9V-g-sQ)
   2. https://en.wikipedia.org/wiki/Transcription_factor
