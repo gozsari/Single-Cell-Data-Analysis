@@ -4,7 +4,7 @@ Notes and studies about single-cell analysis
 * **Central dogma of molecular biology**
 
 <p align="center">
-  <img src="images/Central-Dogma-DNA-to-RNA-to-Protein.png" width="350" title="central dogma">
+  <img src="../images/Central-Dogma-DNA-to-RNA-to-Protein.png" width="350" title="central dogma">
 </p>
 
 * A **tisuue** is a group of cells that have similar structure and function together as a unit. 
@@ -25,7 +25,7 @@ Notes and studies about single-cell analysis
 * **Bulk vs Single-cell RNA sequencing**
 
  <p align="center">
-  <img src="images/bulk_vs_SC.png" width="450" title="Bulk vs Single-Cell RNA sequencing">
+  <img src="../images/bulk_vs_SC.png" width="450" title="Bulk vs Single-Cell RNA sequencing">
 </p>
 
 * **Goals of scRNA-seq**
@@ -36,13 +36,13 @@ Notes and studies about single-cell analysis
 * **Overview of Single-cell RNA sequencing**
 
  <p align="center">
-  <img src="images/scrna-process.png" width="650" title="Overview of Single-cell RNA sequencing">
+  <img src="../images/scrna-process.png" width="650" title="Overview of Single-cell RNA sequencing">
 </p>
 
 * Unique molecular identifiers (UMIs) reduce amplification error
 
  <p align="center">
-  <img src="images/umi-cellbarcode.png" width="450" title="umi and cell barcode">
+  <img src="../images/umi-cellbarcode.png" width="450" title="umi and cell barcode">
 </p>
 
 * UMI counts compromise the gene by cell matrices for the analysis.
@@ -50,13 +50,13 @@ Notes and studies about single-cell analysis
 * Consideration for choosing scRNA-seq technology
 
  <p align="center">
-  <img src="images/scRNA-seq-techs.png" width="450" title="comparison of scRNA-seq technologies">
+  <img src="../images/scRNA-seq-techs.png" width="450" title="comparison of scRNA-seq technologies">
 </p>
 
 * **Single cell RNA-seq analysis workflow**
 
  <p align="center">
-  <img src="images/schematic-view-scRNA-seq-analysis.png" title="schematic-view-scRNA-seq-analysis">
+  <img src="../images/schematic-view-scRNA-seq-analysis.png" title="schematic-view-scRNA-seq-analysis">
 </p>
 
 After demultiplexing the data, we end up with a gene count by cell matrix where each column represents a single cell, and the rows of that column are the sum of UMIs detected for each gene species.
