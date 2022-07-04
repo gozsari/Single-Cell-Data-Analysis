@@ -112,7 +112,7 @@ The idea of the preprocessing pipeline is to remove variation that arises due to
 **CPM normalization technique:** Main assumption is that all cells have equal mRNA molecules, thus, count depth due to the differences in sampling.
 * However, in droplet-based approaches the assumption that cell size can effect the read depth such that if you have a bigger cell, the capture process might become saturated.
 
-* $$ CPM_i = {{r_i \over R}* 10^6 $$
+$$ CPM_i = {{r_i \over R} 10^6} $$
  
 C. **Log Transformation:**
 The idea is to stabilize the variance for genes whose averages are order of magnitudes different.
