@@ -141,10 +141,8 @@ The idea is to stabilize the variance for genes whose averages are order of magn
  3. [Awesome Single cell](https://github.com/seandavi/awesome-single-cell): About Community-curated list of software packages and data resources for single-cell, including RNA-seq, ATAC-seq, etc.
  4. [scRNAseq-analysis-notes](https://github.com/crazyhottommy/scRNAseq-analysis-notes): scRNAseq analysis notes
  5. [scRNA-seq data analysis tools and papers](https://github.com/mdozmorov/scRNA-seq_notes): A list of scRNA-seq analysis tools
- 6. [UCLA QCBio Collaboratory Single-Cell RNA-Seq Analysis with Python - Day 1](https://www.youtube.com/watch?v=jwSPTgF9ESQ&list=PLOXLw2he7kYpqAL0Gzco5NkA2DpewtluK&index=2)
- 7. [UCLA QCBio Collaboratory Single-Cell RNA-Seq Analysis with Python - Day 2](https://www.youtube.com/watch?v=HTOoMH7UMYw&list=PLOXLw2he7kYpqAL0Gzco5NkA2DpewtluK&index=3)
- 8. [UCLA QCBio Collaboratory Single-Cell RNA-Seq Analysis with Python - Day 3](https://www.youtube.com/watch?v=9vszIR8pZHc&list=PLOXLw2he7kYpqAL0Gzco5NkA2DpewtluK&index=4)
-
+ 6. [UCLA QCBio Collaboratory Single-Cell RNA-Seq Analysis with Python - Day 1](https://www.youtube.com/watch?v=jwSPTgF9ESQ&list=PLOXLw2he7kYpqAL0Gzco5NkA2DpewtluK&index=2), [Day-2](https://www.youtube.com/watch?v=HTOoMH7UMYw&list=PLOXLw2he7kYpqAL0Gzco5NkA2DpewtluK&index=3), [Day 3](https://www.youtube.com/watch?v=9vszIR8pZHc&list=PLOXLw2he7kYpqAL0Gzco5NkA2DpewtluK&index=4)
+ 9. [A workshop website: Machine Learning for Single Cell Analysis](https://www.krishnaswamylab.org/workshop)
 ## References
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/channel/UC_Nsj_F_u7X7Il9x9V-g-sQ)
   2. https://en.wikipedia.org/wiki/Transcription_factor
