@@ -105,7 +105,7 @@ It is the best practice to consider multiple parameters jointly in order to remo
    * If QC covariate distributions vary between samples, determine QC parameters seperately for each sample.
 
 B. **Normalization and Batch Correction:**
-<p align="center"> :heavy_exclamation_mark: GOAL: Nor malize the variation due to differences in count depth in order to prepare for the model of highly variable gene  (HGV) selection </p>
+<p align="center"> :heavy_exclamation_mark: GOAL: Normalize the variation due to differences in count depth in order to prepare for the model of highly variable gene  (HGV) selection </p>
 
 The idea of the preprocessing pipeline is to remove variation that arises due to the measurement error alone.
 
@@ -116,6 +116,25 @@ $$ CPM_i = {{r_i \over R} 10^6} $$
  
 C. **Log Transformation:**
 The idea is to stabilize the variance for genes whose averages are order of magnitudes different.
+
+**Further Corrections of Data:**
+<p align="center"> :heavy_exclamation_mark: GOAL: minimize affect of variation due to the batch, dropout or cell cycle effects </p>
+
+1. Biological covariates: 
+
+* Remove cell-cycle effects on transcriptome - cell-cycle score.
+* Regress out mito-gene expression.
+
+2. Technical covariates: 
+
+* Count depth
+* Batch effects
+* Expression recovery-imputation
+
+
+## Useful Github Repos:
+ 1. https://github.com/czheluo/scRNAseq-workshop
+
 ## References
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/watch?v=jwSPTgF9ESQ&t=1177s)
   2. https://en.wikipedia.org/wiki/Transcription_factor
