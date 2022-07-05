@@ -186,6 +186,12 @@ of  biological differences across cells.
 * This approach calculates **coefficient of variation** for each gene which is a measure of how spread out the gene count is over all cells
 relative to the mean count for that particular genes over all cells.
 * **In highly variable gene selection procedure;**
+  * We first calculate the coefficient of variation for each gene across the population of cells.
+  * Then, we fit a generalized linear model to the model of coefficient of variation relative to the mean.
+  * This function attempts to model the variation that would be expected to arise from capture process alone as a 
+    function of the starting concentration of the mRNA.
+  * This model of technical noise can be parametrized using either distribution of all genes or of synthetic ercc spike-ins. 
+   Because, the ercc spike-ins have a fixed starting concentration and are uniformly distributed throughout all droplets.
   * 
 
 
