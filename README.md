@@ -192,7 +192,8 @@ relative to the mean count for that particular genes over all cells.
     function of the starting concentration of the mRNA.
   * This model of technical noise can be parametrized using either distribution of all genes or of synthetic ercc spike-ins. 
    Because, the ercc spike-ins have a fixed starting concentration and are uniformly distributed throughout all droplets.
-  * 
+  * The variation in ercc couch should only arise from technical noise in the capture process and not due to any biological variation.
+  * Current standard approaches advise selecting 2k to 5k highly variable genes for downstream analysis. 
 
 
 
