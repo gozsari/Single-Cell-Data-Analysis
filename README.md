@@ -178,6 +178,19 @@ in an n-dimensional space.
 The goal of feature selection and dimensionality reduction is to generate cell by cell matrix upon which cell type clustering can be performed.
 </p>
 
+####Feature selection and dimensionality reduction:
+<p align="center"> :heavy_exclamation_mark: GOAL: 
+The goal of feature selection is to select the subset of genes which are the most informative
+of  biological differences across cells.
+</p>
+
+* How can we build a model of technical variation? The standard approaches seek to identify highly variable genes.
+* This approach calculates **coefficient of variation** for each gene which is a measure of how spread out the gene count is over all cells
+relative to the mean count for that particular genes over all cells.
+* **In highly variable gene selection procedure;**
+  * 
+
+
 
 
 ## Useful Links:
