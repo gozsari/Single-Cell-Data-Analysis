@@ -21,6 +21,7 @@ Notes and studies about single-cell analysis
 
 
 ## Notes
+### DAY - 1
 * Single-cell RNA-seq can asses the global state of all mRNA transcripts being expresses within a tissue with single-cell resolution, so with high content measures.
 * Single-cell RNA-seq enables questions about tissue heterogeneity and how cells transition between different phsiological states.
 
@@ -134,6 +135,35 @@ The idea is to stabilize the variance for genes whose averages are order of magn
 * Expression recovery-imputation
 
 **IMPORTANT: Try to avoid introducing bias, when you do preprocessing data analysis.**
+
+### DAY -2 
+#### Steps to prepare scRNAseq data for clustering
+* Propocessing: Align and count UMIs
+* Batch effects removal
+* Quality control
+* Normalization and imputation
+* **Feature selection: Selecting highly veriable genes (HVGs).**
+* **Dimensionality reduction (using PCA)**
+* Visualizing heterogeneity using t-SNE or UMAP.
+
+General challenge in studies with big data including scRNAseq data is how we can comprehend data that has tens of thousands of dimensions.
+
+**Clustering algorithms** are applied to partition cells with similar gene expression patterns into groups. Groups are compared against each other for patterns of change.
+However, clustering itself an extremely high dimensional data is problematic. This is known as the **curse of dimensionality** means that when you have data that is dissimilar in many ways, distances between similar groups
+become smaller such that it is no longer obvious how to partition data into different groups.
+
+Is there a way to identify which subset of genes contribute the most to the distribution of cells?
+
+How do we know what is the most informative subset of genes for cell clustering and downstream analysis?
+ <p align="center">
+  <img src="images/dim-reduc-flow.png" title="">
+</p>
+
+* The first step is to try to distinguish technical variation from biological variation. Then remove the technical variation.
+* **Highly variable genes** are those genes that are selected because they vary more than what would be expected based on null model of technical noise,
+so after highly variable genes are identified principal component analysis (PCA) is often applied.
+* **PCA** is a dimensionality reduction technique that finds the directions of maximal variance in the data and linearly transforms
+the data such that the reduced space is a linear combination of the original space.
 
 ## Useful Links:
  1. [Scripts for "Current best-practices in single-cell RNA-seq: a tutorial"](https://github.com/theislab/single-cell-tutorial): Single cell current best practices tutorial case study for the paper:Luecken and Theis, "Current best practices in single-cell RNA-seq analysis: a tutorial"
