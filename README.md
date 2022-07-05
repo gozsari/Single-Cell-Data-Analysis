@@ -172,6 +172,12 @@ the data such that the reduced space is a linear combination of the original spa
 in an n-dimensional space.
 * The dimensions would be the principal component vectors that each represent a linear combination of highly variable genes.
 * If you have two cells, and they express the exact same set of genes at the same levels, they occupy the same position in gene expression space such that the distance between them is zero.
+* It is critical how you create cell by cell distance matrix.
+
+<p align="center"> :heavy_exclamation_mark: GOAL: 
+The goal of feature selection and dimensionality reduction is to generate cell by cell matrix upon which cell type clustering can be performed.
+</p>
+
 
 
 ## Useful Links:
