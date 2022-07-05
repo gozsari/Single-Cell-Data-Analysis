@@ -195,6 +195,17 @@ relative to the mean count for that particular genes over all cells.
   * The variation in ercc couch should only arise from technical noise in the capture process and not due to any biological variation.
   * Current standard approaches advise selecting 2k to 5k highly variable genes for downstream analysis. 
 
+### Principal Component Analysis:
+
+* The goal of PCA is to find which linear combination of genes accounts for the most variance in the distribution of the cell gene data.
+* Why do we need to do PCA?
+  * The idea is selecting the directions of maximal variation that the clustering algorithms will work better.
+  * PCA is used to reduce the dimensionality of the data so that each cell is plotted in axes that represent directions of maximal variance.
+  * These directions of variance are determined by principal components which represent a metagene which is a linear combination of information across correlated sets of genes.
+  * PCA is often performed on CMP normalized HVGs.
+  * We find the elbow dimension of principal components and project our cells into a reduced space where each axis is a principal component that explains
+  a high fraction of variance in the sata.
+  * So, the next step is calculating cell by cell distances using this dimensionality reduced basis.
 
 
 
