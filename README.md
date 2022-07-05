@@ -195,7 +195,7 @@ relative to the mean count for that particular genes over all cells.
   * The variation in ercc couch should only arise from technical noise in the capture process and not due to any biological variation.
   * Current standard approaches advise selecting 2k to 5k highly variable genes for downstream analysis. 
 
-### Principal Component Analysis:
+#### Principal Component Analysis:
 
 * The goal of PCA is to find which linear combination of genes accounts for the most variance in the distribution of the cell gene data.
 * Why do we need to do PCA?
