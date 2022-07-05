@@ -20,8 +20,8 @@ Notes and studies about single-cell analysis
 * **ERCC RNA Spike-In Control Mixes** provide a set of external RNA controls that enable performance assessment of a variety of technology platforms used for gene expression experiments. 
 
 
-## Notes
-### DAY - 1
+# Notes
+## DAY - 1
 * Single-cell RNA-seq can asses the global state of all mRNA transcripts being expresses within a tissue with single-cell resolution, so with high content measures.
 * Single-cell RNA-seq enables questions about tissue heterogeneity and how cells transition between different phsiological states.
 
@@ -136,7 +136,7 @@ The idea is to stabilize the variance for genes whose averages are order of magn
 
 **IMPORTANT: Try to avoid introducing bias, when you do preprocessing data analysis.**
 
-### DAY -2 
+## DAY -2 
 #### Steps to prepare scRNAseq data for clustering
 * Propocessing: Align and count UMIs
 * Batch effects removal
