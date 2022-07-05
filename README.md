@@ -164,6 +164,15 @@ How do we know what is the most informative subset of genes for cell clustering 
 so after highly variable genes are identified principal component analysis (PCA) is often applied.
 * **PCA** is a dimensionality reduction technique that finds the directions of maximal variance in the data and linearly transforms
 the data such that the reduced space is a linear combination of the original space.
+  * Each component in PCA is determined by some combination of genes.
+  * Often cells are then clustered for transcriptional similarity using PCA coordinates as the basis.
+* Finally, UMAP and t-SNE projections can be applied to visualize the differences.
+* The goal of dimensionality reduction in scRNAseq data is to prepare the data for cell type clustering.
+* Cell type clustering if performed on cell by cell distance matrix where the distances between cells represent L2 or euclidean distances
+in an n-dimensional space.
+* The dimensions would be the principal component vectors that each represent a linear combination of highly variable genes.
+* If you have two cells, and they express the exact same set of genes at the same levels, they occupy the same position in gene expression space such that the distance between them is zero.
+
 
 ## Useful Links:
  1. [Scripts for "Current best-practices in single-cell RNA-seq: a tutorial"](https://github.com/theislab/single-cell-tutorial): Single cell current best practices tutorial case study for the paper:Luecken and Theis, "Current best practices in single-cell RNA-seq analysis: a tutorial"
