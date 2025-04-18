@@ -217,6 +217,7 @@ relative to the mean count for that particular genes over all cells.
  5. [scRNA-seq data analysis tools and papers](https://github.com/mdozmorov/scRNA-seq_notes): A list of scRNA-seq analysis tools
  6. [UCLA QCBio Collaboratory Single-Cell RNA-Seq Analysis with Python - Day 1](https://www.youtube.com/watch?v=jwSPTgF9ESQ&list=PLOXLw2he7kYpqAL0Gzco5NkA2DpewtluK&index=2), [Day-2](https://www.youtube.com/watch?v=HTOoMH7UMYw&list=PLOXLw2he7kYpqAL0Gzco5NkA2DpewtluK&index=3), [Day 3](https://www.youtube.com/watch?v=9vszIR8pZHc&list=PLOXLw2he7kYpqAL0Gzco5NkA2DpewtluK&index=4)
  9. [A workshop website: Machine Learning for Single Cell Analysis](https://www.krishnaswamylab.org/workshop)
+ 10. [mLLMCelltype](https://github.com/cafferychen777/mLLMCelltype): An iterative multi-LLM consensus framework for cell type annotation in single-cell RNA sequencing data
 ## References
   1. UCLA QCBio Collaboratory - [Webinars on Youtube](https://www.youtube.com/channel/UC_Nsj_F_u7X7Il9x9V-g-sQ)
   2. https://en.wikipedia.org/wiki/Transcription_factor
